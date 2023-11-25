@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'assets/style/main';
+@import 'assets/style/typography';
+@import 'assets/style/navbar';
+@import 'assets/style/swiper-1';
+@import 'assets/style/swiper-2';
+@import 'assets/style/header';
+@import 'assets/style/utiliti';
+@import 'assets/style/form';
+@import "~animate.css/animate.min";
+@font-face {
+  font-family: "HKGroteskPro";
+  src: local("HKGroteskPro"), url(./assets/fonts/HKGrotesk-Regular.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "HKGroteskLight";
+  src: local("HKGroteskPro"), url(./assets/fonts/HKGrotesk-Light.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "HKGroteskMedium";
+  src: local("HKGroteskPro"), url(./assets/fonts/HKGrotesk-Medium.otf) format("truetype");
+}

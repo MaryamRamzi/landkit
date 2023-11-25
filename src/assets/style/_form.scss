@@ -1,0 +1,47 @@
+.form-control {
+  padding: 0.75rem 0.95rem;
+  //font-size: 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da4d;
+}
+
+.form-floating>label {
+  padding: 1rem 0;
+}
+
+.form-control-flush, .form-floating>.form-control-flush {
+  border-left-width: 0;
+  border-radius: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  padding-left: 0;
+  padding-right: 0;
+  height: 3.75rem;
+}
+
+.form-floating>label {
+  color: #869ab8;
+}
+.btn-success {
+  background-color: #42ba96;
+  border-color: #42ba96;
+  box-shadow: 0 0;
+  color: #fff;
+}
+
+.btn-check:focus+.btn-success, .btn-success:focus, .btn-success:hover {
+  background-color: #389e80;
+  border-color: #359578;
+  color: #fff;
+}
+.f-btn {
+  padding: 0.8rem 0.75rem;
+  font-size: 1.1rem;
+  border-radius: 0.4rem;
+}
+@media (max-width: 991.98px){
+  .form-control {
+    padding: 1rem 0.95rem;
+    font-size: 1rem;
+  }
+}

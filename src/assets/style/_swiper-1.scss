@@ -1,0 +1,140 @@
+.card {
+  position: relative;
+  width: 100%;
+}
+.g-0, .gx-0 {
+  --bs-gutter-x: 0;
+}
+[class^=col] {
+  position: relative;
+}
+@media (min-width: 768px){
+  .position-md-static {
+    position: static!important;
+  }
+}
+@media (min-width: 768px){
+  .card-img-slider {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.flickity-enabled {
+  position: relative;
+}
+
+.flickity-enabled.is-fade .flickity-slider>.is-selected {
+  pointer-events: auto;
+  z-index: 1;
+}
+
+.flickity-enabled.is-fade .flickity-slider>* {
+  pointer-events: none;
+  z-index: 0;
+}
+@media (min-width: 768px){
+  .card-img-slider * {
+    height: inherit!important;
+    width: inherit!important;
+  }
+}
+
+@media (min-width: 768px){
+  .card-img-start {
+    border-radius: 0.375rem 0 0 0.375rem;
+  }
+}
+
+.card-body, .card-footer, .card-img, .card-img-end, .card-img-start, .card-img-top, .card-meta {
+  min-height: 1px;
+  position: relative;
+}
+.bg-cover {
+  background: no-repeat 50%/cover;
+}
+.flickity-enabled.is-draggable {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.flickity-enabled:focus {
+  outline: 0;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+  cursor: grab;
+}
+
+[data-flickity*='"adaptiveHeight": true'] .flickity-viewport {
+  transition: all .5s ease;
+}
+.flickity-viewport {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (min-width: 992px){
+  .flickity-prev-next-button.previous {
+    transform: translate(-50%,-50%);
+  }
+}
+.flickity-prev-next-button.previous {
+  left: 0;
+  z-index: 50;
+}
+.flickity-prev-next-button.next {
+  right: 0;
+  z-index: 50;
+}
+
+.flickity-button {
+  background: hsla(0,0%,100%,.75);
+  border: none;
+  color: #333;
+  position: absolute;
+}
+.flickity-prev-next-button {
+  border-radius: 50%;
+  height: 44px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+}
+.flickity-prev-next-button {
+  align-items: center;
+  background-color: #335eea;
+  box-shadow: 0 0.5rem 1.5rem rgb(22 28 45 / 5%);
+  color: #fff;
+  display: flex;
+  height: calc(1.6em + 1.625rem + 2px);
+  justify-content: center;
+  width: calc(1.6em + 1.625rem + 2px);
+}
+.flickity-prev-next-button .flickity-button-icon {
+  height: 60%;
+  left: 20%;
+  position: absolute;
+  top: 20%;
+  width: 60%;
+}
+
+.flickity-button-icon {
+  display: none;
+}
+.flickity-button-icon {
+  fill: currentColor;
+}
+@media (min-width: 992px){
+  .flickity-prev-next-button.next {
+    transform: translate(50%,-50%);
+  }
+}
+
+.blockquote-footer::before {
+  content: "";
+}
